@@ -18,4 +18,14 @@ h2 + p{ /* this will applied in each p next to an h2*/
     color: brown;
 }
 
+/* first child Pseudo-selector */
+div h2:first-child{
+    color:orchid;
+}
+
+/* only child pseudo-selector */
+section h2:only-child{
+    color: salmon;
+}
+
 /*Note: the order matters, since adjacent siblings is below general siblings this will overwrite it*/

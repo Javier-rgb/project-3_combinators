@@ -8,13 +8,13 @@ section > h3{
     color: darkgreen;
 }
 
-/*General Siblings*/
-h2 ~ p{ /*this will be applied in every p within a grop with an h2*/
+/* General Sibling Selector */
+h2 ~ p{ /*this will get all of the following elements instead of one.*/
     color: cornflowerblue;
 }
 
 /* Adjacent Siblings */
-h2 + p{ /* this will applied in each p with an h2 above*/
+h2 + p{ /* this will applied in each p next to an h2*/
     color: brown;
 }
 

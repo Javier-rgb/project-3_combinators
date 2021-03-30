@@ -1,3 +1,13 @@
+/* Descendent */
+div h3 {
+    color: magenta;
+}
+
+/* Direct Children*/
+section > h3{
+    color: darkgreen;
+}
+
 /*General Siblings*/
 h2 ~ p{ /*this will be applied in every p within a grop with an h2*/
     color: cornflowerblue;

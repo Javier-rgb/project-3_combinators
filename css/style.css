@@ -1,0 +1,4 @@
+/* Adjacent Siblings */
+h2 + p{ /* this will applied in each p with an h2 above*/
+    color: brown;
+}

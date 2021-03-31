@@ -1,3 +1,15 @@
+/* Reset Browser settings */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Setting general CSS' Size */
+html{
+    font-size: 62.5%; /*now 1.0rem = 10px*/
+}
+
 /* Descendent */
 div h3 {
     color: magenta;
@@ -29,25 +41,27 @@ section h2:only-child{
 }
 
 /* Measurement */
-
+/*Note: now al measures will be set using rem*/
+/*
 body{
     font-size: 30px;
+    font-size: 3rem;
 }
-
+*/
 div{
-    font-size: .8em;
+    font-size: 2.4rem;
 }
 
 section{
-    font-size: .7em;
+    font-size: 2.1rem;
 }
 
 h2{
-    font-size: 3em;
+    font-size: 3rem;
 }
 
 p{
-    font-size: 1em;
+    font-size: 1.5rem;
 }
 /*Note: The order applies after priorities example: div h2:first-child has same priority than section h2:only-child*/
 /*Note: the order matters, since adjacent siblings is below general siblings this will overwrite it*/

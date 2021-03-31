@@ -28,4 +28,26 @@ section h2:only-child{
     color: salmon;
 }
 
+/* Measurement */
+
+body{
+    font-size: 30px;
+}
+
+div{
+    font-size: .8em;
+}
+
+section{
+    font-size: .7em;
+}
+
+h2{
+    font-size: 3em;
+}
+
+p{
+    font-size: 1em;
+}
+/*Note: The order applies after priorities example: div h2:first-child has same priority than section h2:only-child*/
 /*Note: the order matters, since adjacent siblings is below general siblings this will overwrite it*/

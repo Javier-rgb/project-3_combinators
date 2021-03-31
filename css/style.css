@@ -42,18 +42,24 @@ section h2:only-child{
 
 /* Measurement */
 /*Note: now al measures will be set using rem*/
-/*
+
 body{
-    font-size: 30px;
-    font-size: 3rem;
+    width: 100vw;
+    height: 100vh;
+    background-color: cyan;
 }
-*/
+
 div{
     font-size: 2.4rem;
 }
 
 section{
     font-size: 2.1rem;
+    width: 80%;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: plum;
+    min-height: 50px;
 }
 
 h2{
@@ -62,6 +68,8 @@ h2{
 
 p{
     font-size: 1.5rem;
+    background-color: forestgreen;
+    min-height: 40px;
 }
 /*Note: The order applies after priorities example: div h2:first-child has same priority than section h2:only-child*/
 /*Note: the order matters, since adjacent siblings is below general siblings this will overwrite it*/
